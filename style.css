@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-size: 30px;
+}
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
