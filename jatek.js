@@ -12,10 +12,11 @@ class JatekTer {
         $(window).on("elemKattintas", (event) => {
             console.log(event.detail)
             if (lepes % 2 === 0) {
-                event.detail.setelem="X";
+                event.detail.setElem("X");
                 this.#JatekterLista[event.detail.id]="X";
             }
             else {
+                event.detail.setElem("O");
                 this.#JatekterLista[event.detail.id]="O";
             }
             lepes++;
