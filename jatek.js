@@ -1,6 +1,7 @@
 import Elem from "./elem.js";
 class JatekTer {
     #JatekterLista=[]
+    #lepes
     constructor() {
         this.#lepes = 0;
         this.#JatekterLista=["","","","","","","","",""];
